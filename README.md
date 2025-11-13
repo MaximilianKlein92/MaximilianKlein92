@@ -11,27 +11,30 @@ _Working at DITF Denkendorf on sustainable materials and digital transformation_
 
 ---
 
-## 🧠 About Me
+## About Me
 Neurobiologist by training — now applying **AI and digitalization** to sustainable material development.  
 At **DITF Denkendorf**, I work on **environmentally friendly alternatives to textiles and leather**,  
-developing digital tools for **process understanding**, **simulation**, and **optimization**.
+developing digital tools and twins for **process understanding**, **simulation**, and **optimization**.
 
-- **M.Sc. Neuroscience (Computational focus)**  
+- **M.Sc. Computaional Neuroscience**  
 - Developed a **self-learning robot** with a **plastic neural network** that adapts to changing environments with and without predators  
 - Completed a **4-month Data Science training**: AI tools, data visualization, and dashboarding
 
 ---
 
-## 🚀 Featured Projects
+## Featured Projects
 
 | Project | Description | Tech |
 |----------|--------------|------|
-| 🧩 **Adaptive Braitenberg Vehicle** | Simulation of a robot with a plastic (adaptive) neural network improving survival in dynamic environments. | Python · PyTorch · ROS · Webots |
-| 🌿 **Sustainable Material Analytics (DITF)** | Process analysis and optimization for eco-alternatives to leather and textiles using digital twins and ML. | Python · Pandas · ML · Plotly |
-| 🏙️ **Urban Housing Dashboard** | Streamlit app for visualizing housing markets and supporting multi-criteria decision making. | Streamlit · Pandas · Altair · Plotly |
-| 🚗 **Car Value & Suitability Analysis** | Dashboard comparing cars for city, outdoor, and sport use based on value, engine data, and energy profile. | Python · scikit-learn · Plotly |
-| 🔐 **Cyberattack Classification** | Detection and classification of malicious network traffic in mixed datasets. | scikit-learn · XGBoost · SHAP |
+| **Adaptive Braitenberg Vehicle** | Simulation of a robot with a plastic (adaptive) neural network improving survival in dynamic environments. | Python · PyTorch · ROS · Webots |
+| **Sustainable Material Analytics (DITF)** | Process analysis and optimization for eco-alternatives to leather and textiles using digital twins and ML. | Python · Pandas · ML · Plotly |
+| **Urban Housing Dashboard** | Streamlit app for visualizing housing markets and supporting multi-criteria decision making. | Streamlit · Pandas · Plotly |
+| **Car Value & Suitability Analysis** | Dashboard comparing cars for city, outdoor, and sport use based on value, engine data, and energy profile. | Python · scikit-learn · Plotly |
+| **Cyberattack Classification** | Detection and classification of malicious network traffic in mixed datasets. | scikit-learn · XGBoost · SHAP |
 
 ---
 
-## 🖼️ Screenshot Framework
+## Screenshot Framework
+
+(Webots)[
+
