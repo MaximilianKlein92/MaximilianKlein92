@@ -10,6 +10,8 @@ _Working at DITF Denkendorf on sustainable materials and digital transformation_
 [![scikit-learn](https://img.shields.io/badge/scikit--learn-1.2.2-F7931E?logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
 [![Last Updated](https://img.shields.io/badge/Updated-2025.11-brightgreen)](#)
 
+
+
 ---
 
 
@@ -31,7 +33,7 @@ developing digital tools and twins for **process understanding**, **simulation**
 |----------|--------------|------|
 | **Adaptive Braitenberg Vehicle** | Simulation of a robot with a plastic (adaptive) neural network improving survival in dynamic environments. | Python · PyTorch · ROS · Webots |
 | **Sustainable Material Analytics (DITF)** | Process analysis and optimization for eco-alternatives to leather and textiles using digital twins and ML. | Python · Pandas · ML · Plotly |
-| **Urban Housing Dashboard** | Streamlit app for visualizing housing markets and supporting multi-criteria decision making. | Streamlit · Pandas · Plotly |
+| **Urban Housing Dashboard** | Streamlit app for visualizing housing markets and supporting multi-criteria decision making. [View](#housing)| Streamlit · Pandas · Plotly |
 | **Car Value & Suitability Analysis** | Dashboard comparing cars for city, outdoor, and sport use based on value, engine data, and energy profile. [View](#car-analysis) | Python ·  · Plotly |
 | **Cyberattack Classification** | Detection and classification of malicious network traffic in mixed datasets. [View](#cybersecure-analysis)| scikit-learn · XGBoost · SHAP |
 
@@ -42,6 +44,27 @@ developing digital tools and twins for **process understanding**, **simulation**
 
 
 ## A closer look
+
+<a id="housing"></a>
+### Housing decition helper App
+
+I built a lightweight tool with stremlit to simplify housing searches.
+The app allows users to collect housing listings from the internet by entering core fields such as Name, Link, Address, Rent, Distance, Rooms, Size, Rental Period, Kitchen/Furnished, and Parking.
+
+All entries appear in an editable local database table. No cloud connection is needed. You can export the dataset as a CSV or import an existing CSV in the correct format, making it easy to work across multiple devices.
+
+To support better decision-making, the app generates a fully customizable scatter plot. You can select any variables for the X- and Y-axis, colour-code categories, and change bubble size to match another parameter. The plot also highlights mean values for the chosen KPIs, giving a quick overview of how each option compares to the general trend.
+
+The interface supports English and German, so the tool can be used in both languages.
+
+Overall, the goal was to create a simple, practical helper that combines clean data handling with visual analytics—without the complexity of a cloud service.
+
+The app is available online: [Housing decision helper (live)](https://decitiondeceph.streamlit.app/)
+
+[View this repository](https://github.com/MaximilianKlein92/Apartment-Decision-helper)
+
+![App picture in Housing](media/housing.png)
+
 
 <a id="car-analysis"></a>
 ### Car Value & Suitability Analysis
