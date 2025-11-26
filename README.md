@@ -31,7 +31,7 @@ developing digital tools and twins for **process understanding**, **simulation**
 
 | Project | Description | Tech |
 |----------|--------------|------|
-| **Adaptive Braitenberg Vehicle** | Simulation of a robot with a plastic (adaptive) neural network improving survival in dynamic environments. | Python · PyTorch · ROS · Webots |
+| **Adaptive Braitenberg Vehicle** | Simulation of a robot with a plastic (adaptive) neural network improving survival in dynamic environments. [View](#robot)| Python · PyTorch · ROS · Webots |
 | **Sustainable Material Analytics (DITF)** | Process analysis and optimization for eco-alternatives to leather and textiles using digital twins and ML. | Python · Pandas · ML · Plotly |
 | **Urban Housing Dashboard** | Streamlit app for visualizing housing markets and supporting multi-criteria decision making. [View](#housing)| Streamlit · Pandas · Plotly |
 | **Car Value & Suitability Analysis** | Dashboard comparing cars for city, outdoor, and sport use based on value, engine data, and energy profile. [View](#car-analysis) | Python ·  · Plotly |
@@ -43,10 +43,25 @@ developing digital tools and twins for **process understanding**, **simulation**
 
 
 
-## A closer look
+# A closer look
+ 
+
+<a id="robot"></a>
+## Adaptive Braitenberg Agent with Plastic Neuronal Network
+
+This project was my masters thesis and introduces a novel learning framework for autonomous agents by extending classical Braitenberg vehicles with a plastic neuronal network based on the Direct Configuration Model. Instead of relying on fixed architectures or gradient-based optimisation, the agent adapts through structural plasticity: synaptic connections are created, removed, or reweighted in direct response to environmental demands.
+
+In a simulated, continuously changing environment — with and without predators — the agent develops robust survival strategies, including avoidance, exploration, and resource-seeking. Behaviour emerges from sensorimotor coupling and self-organised network restructuring, demonstrating how simple biological rules can generate complex, adaptive intelligence.
+
+This work proposes an alternative path for AI development by focusing on network morphology, embodiment, and experience-driven rewiring, offering a biologically inspired route toward self-modifying, interpretable learning systems.
+
+[View this repository](https://github.com/MaximilianKlein92/Webots-Breitenberg)
+
+![Robot functioning picture](media/robot.png)
+
 
 <a id="housing"></a>
-### Housing decition helper App
+## Housing decition helper App
 
 I built a lightweight tool with stremlit to simplify housing searches.
 The app allows users to collect housing listings from the internet by entering core fields such as Name, Link, Address, Rent, Distance, Rooms, Size, Rental Period, Kitchen/Furnished, and Parking.
@@ -67,7 +82,7 @@ The app is available online: [Housing decision helper (live)](https://decitionde
 
 
 <a id="car-analysis"></a>
-### Car Value & Suitability Analysis
+## Car Value & Suitability Analysis
 
 This 5-day-project implements an end-to-end analytics pipeline (ETL → EDA → modeling) using the Kaggle Car Price dataset (205 cars, 26 features) to identify key factors influencing vehicle pricing and market segmentation. 
 
@@ -85,7 +100,7 @@ Final deliverables include a cleaned dataset, Jupyter notebooks, and a Power BI 
 
 
 <a id="cybersecure-analysis"></a>
-### Cyberattack Classification
+## Cyberattack Classification
 
 In a 5-day-hackaton I contributed with 4 others to this project whitch builds an end-to-end pipeline for network-intrusion analytics: 
 - reusable ETL
