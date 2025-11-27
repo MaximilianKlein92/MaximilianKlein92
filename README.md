@@ -37,6 +37,7 @@ developing digital tools and twins for **process understanding**, **simulation**
 | **Car Value & Suitability Analysis** | Dashboard comparing cars for city, outdoor, and sport use based on value, engine data, and energy profile. [View](#car-analysis) | Python ·  · Plotly |
 | **Cyberattack Classification** | Detection and classification of malicious network traffic in mixed datasets. [View](#cybersecure-analysis)| scikit-learn · XGBoost · SHAP |
 | Pyramid Training App | Time-based pyramid workout with automatic rep-timing and matching countdown signals. [View](#Pyramid)| Tkinter · Python · Timer Logic |
+| Chord Extractor | Real-time chord detection with audio playback, transposition, and speed control. [View](#Chord)| Python · Pygame · librosa · ffmpeg |
 
 
 
@@ -135,4 +136,23 @@ The system is minimalistic, intuitive, and built entirely with Tkinter and also 
 
 [View this repository](https://github.com/MaximilianKlein92/Pyramid-Intervall-GUI)
 
+
+<a id="Chord"></a>
 ![Pyramid](media/Pyramid.png)
+
+## Chord Extractor App 
+#### --- Work in progess ---
+
+I wanted to play along with my gitar to any song so I build the Chord Extractor. It is a Python application built using Pygame, librosa, and ffmpeg. It is designed to play audio files while dynamically extracting and displaying chords from the music. The application offers various playback controls—including adjustable speed, volume, transposition, and repeat functionality—and organizes chord information on a multi-level interface.
+
+Key Features Audio Playback: Plays audio files (MP3 and WAV) with controls for pausing, skipping, and repeating.
+
+Chord Extraction: Uses librosa to analyze the harmonic content of the audio and determine the underlying chords. The chords are then displayed on a three-level (vertical) interface.
+
+Transposition and Speed Adjustment: Allows real-time transposition of the audio along with corresponding updates to the chord display, as well as changing the playback speed.
+
+Graphical User Interface: The UI is developed with Pygame and includes a file manager and control buttons. All controls are represented by icons stored in a resources folder.
+
+Temporary File Management: The program creates and cleans up temporary audio files during playback adjustments.
+
+[View this repository](https://github.com/MaximilianKlein92/Chord-extractor)
