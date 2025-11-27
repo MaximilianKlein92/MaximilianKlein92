@@ -36,6 +36,7 @@ developing digital tools and twins for **process understanding**, **simulation**
 | **Urban Housing Dashboard** | Streamlit app for visualizing housing markets and supporting multi-criteria decision making. [View](#housing)| Streamlit · Pandas · Plotly |
 | **Car Value & Suitability Analysis** | Dashboard comparing cars for city, outdoor, and sport use based on value, engine data, and energy profile. [View](#car-analysis) | Python ·  · Plotly |
 | **Cyberattack Classification** | Detection and classification of malicious network traffic in mixed datasets. [View](#cybersecure-analysis)| scikit-learn · XGBoost · SHAP |
+| Pyramid Training App | Time-based pyramid workout with automatic rep-timing and matching countdown signals. [View](#Pyramid)| Tkinter · Python · Timer Logic |
 
 
 
@@ -121,5 +122,17 @@ Outputs include cleaned data, cluster profiles, top-anomalies lists, and an expl
 ![Cyberattack_Dash1](media/Cybersecure_Dash.png)
 
 
+<a id="Pyramid"></a>
+## Pyramid Training – Tkinter Sport App
 
+This was my first Project and has always a special place in my heard. This app enables time-based pyramid training. You perform one repetition of an exercise, then press Pause. The app measures the exact time your repetition took. After that, it automatically starts a countdown of the same length.
 
+In the next round, you perform one repetition more and repeat the process. You continue until muscle failure, and then work your way downwards again.
+
+The entire session runs within a set total time (by default 7.5 minutes, fully adjustable). During training, the app displays clear timer information and provides an acoustic countdown signal.
+
+The system is minimalistic, intuitive, and built entirely with Tkinter and also works in a android phone with a python compiler on it.
+
+[View this repository](https://github.com/MaximilianKlein92/Pyramid-Intervall-GUI)
+
+![Pyramid](media/Pyramid.png)
